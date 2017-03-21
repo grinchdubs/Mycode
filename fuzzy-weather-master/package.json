@@ -1,0 +1,40 @@
+{
+  "name": "fuzzy-weather",
+  "description": "A Node module for retrieving a 'fuzzy' weather forecast (words, not data) powered by Dark Sky",
+  "private": true,
+  "version": "0.1.0",
+  "main": "src/weather.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/specs",
+    "watchtest": "mocha --watch test/specs",
+    "watchtestdebug": "DEBUG=fuzzy-weather* mocha --watch test/specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakerella/fuzzy-weather.git"
+  },
+  "author": "Jordan Kasper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakerella/fuzzy-weather/issues"
+  },
+  "homepage": "https://github.com/jakerella/fuzzy-weather#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "least-squares": "0.0.2",
+    "lodash": "^4.15.0",
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.11",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.2"
+  }
+}

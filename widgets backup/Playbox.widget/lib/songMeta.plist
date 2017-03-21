@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>albumName</key>
+	<string></string>
+	<key>artistName</key>
+	<string>GRNCH</string>
+	<key>coverURL</key>
+	<string>NA</string>
+	<key>currentPosition</key>
+	<string>70.178001403809</string>
+	<key>oldFilename</key>
+	<string>/Users/Piotr/Code/Ubersicht/Playbox.Widget/Playbox.widget/lib/cover886.jpg</string>
+	<key>songChanged</key>
+	<string>false</string>
+	<key>songDuration</key>
+	<string>366.053009033203</string>
+	<key>songName</key>
+	<string>slashdot</string>
+</dict>
+</plist>
